@@ -1,3 +1,65 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+.add-todo-button {
+    border-radius: 5px;
+    background-color: #ff89de;
+    color: white;
+}
+
+.edit-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 5vw;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.delete-button {
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    width: 5vw;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.ok-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 5vw;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    width: 5vw;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+
+.todo-list-box {
+    border: 3px black solid;
+    margin: 0 auto;
+    width: 30%;
+    text-align: -webkit-center;
+}
+
+.todo-box {
+    max-width: 25vw;
+    padding: 5px;
+    max-height: 20vh;
+    background-color: #befa81;
+    position: relative;
+    margin: 5px;
 }

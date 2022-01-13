@@ -59,7 +59,18 @@
     max-width: 25vw;
     padding: 5px;
     max-height: 20vh;
-    background-color: #befa81;
     position: relative;
     margin: 5px;
+}
+
+.todo-name-input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.todo-detail-input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
 }
